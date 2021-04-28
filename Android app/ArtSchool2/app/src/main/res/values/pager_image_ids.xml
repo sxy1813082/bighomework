@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="image_art" type="id" />
+    <item name="image_art2" type="id" />
+    <item name="image_art3" type="id" />
+    <item name="donut_circle" type="id" />
+</resources>
