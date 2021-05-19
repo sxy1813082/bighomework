@@ -2,8 +2,8 @@
     <string name="app_name">Art School</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">建筑学院</string>
+    <string name="nav_header_subtitle">jianzhu.studio@jianzhu.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -19,4 +19,67 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+<string name="ku">库哈斯的作品其实已经超出了或者说远远扩大了传统建筑学的语境，这一点真的有点像柯布。也许并不是每个人都能喜欢库哈斯，\n但是我们也没办法否认他的伟大库哈斯通过他比较奇特的方式切入设计（当初这指的是他开宗立派的时期，现在这种方式早已成了遍布全球的徒子徒孙做设计的方式），通过各种diagram的分析，为建筑立意、破题。\n库哈斯一次又一次用“批判”建筑的方式在做建筑
+</string>
+    <string name="dubai">它的整体位落与迪拜海边的人工岛上，是一栋帆船状的塔状建筑物。
+        阿拉伯塔酒店糅合了最新的建筑及工程科技，迷人的景致及造型，使它看上去仿佛和天空融为一体。
+        \n酒店采用双层膜结构建筑形式，造型轻盈、飘逸，具有很强的膜结构特点及现代风格。它拥有202套复式客房、200米高的可以俯瞰迪拜全城的餐厅。</string>
+    <string name="ta">广州塔外形奇特，呈圆形逐步扭曲成网络结构，中间结构收窄；并且全部为玻璃作幕墙，更具有现代感。
+        \n广州塔已经成为广州重要的地标性建筑。新电视塔建设工程，是广州的新地标、新形象，有助于提升广州的文化设施水平，并为建筑学提供一个成功典范。</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+    <string name="duichen"> 故宫又名紫禁城，是中国乃至世界上保存最完整，规模最大的木质结构古建筑群，被誉为“世界五大宫之首”。它的庄严肃穆，它的对称美让我们不禁赞叹古人的智慧，同时也感受到对称的魅力！</string>
+    <string name="gulou">钟、鼓两楼在对比中，一横一直，形成了和谐美妙的组合。明朝初年智慧的建筑工人，和当时的“打图样”的师父们就这样朴实、大胆地创造了自己市心的立体标志，充满了中华民族特征的不平凡的风格。钟、鼓楼西面俯瞰什刹海和后海。这两个“海”是和北京历史分不开的。它们和北海、中海、南海是一个系统的五个湖沼。</string>
+    <string name="zun">项目简介:528米高的办公塔楼设计灵感源自中国传统的礼器，“尊”。\n对造型进行了优化，平衡设计与结构要求及出租需求。塔楼造型体现了”尊”的独特曲线及完美的结构比例。塔楼平面为圆角方形。\n塔楼宽度底部为78米，中部收分处宽度为54米，顶部宽度为69米。</string>
+    <string name="subtitle_detail_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor diam fringilla tellus, eu euismod mauris neque at neque.</string>
+    <string name="da_xing">大兴机场内最引人瞩目的，是向机场腹地伸出5条指廊、形似金色凤凰的世界最大单体航站楼。在混凝土、钢筋和玻璃构筑而成的穹顶之下，乘客在中央大厅完成手续后，最远步行600米即可到达登机口。到2025年，这里可实现7200万人次的旅客吞吐量，相当于拥有3个巴黎戴高乐机场目前的运量规模。</string>
+    <string name="dibai">迪拜风中烛火大厦从54层到97层不等，汇集在一起构成一座舞蹈般的雕塑形象，看上去很像是烛火在闪动。建筑表达方面，其成熟的美学和结构工程方面的创新是任何现代建筑都无法比拟的。“迪拜大厦-迪拜”还设置了一系列附属的设施，包括零售店、娱乐场所和住宅，创造出富有活力动感的社区。</string>
+    <string name="xinjiapo">滨海湾金沙酒店坐落于 Marina Bay 滨海湾，由三座连成一串的酒店大楼组成，顶部建有景色壮观的空中花园，酒店内则设有“漂浮式”水晶阁、莲花外形的博物馆、出售各种先进商品和国际奢侈品牌的零售商店、精致时尚的名厨餐厅、享之不尽的影院娱乐、激情涌动的夜总会以及一座拉斯维加斯风格的娱乐场。</string>
+    <string name="luofugong">说道卢浮宫博物馆，不得不提的就是前面提到的玻璃金字塔。1989年，在一片争议声中，玻璃金字塔屹立在卢浮宫西面的拿破仑广场上，他就是卢浮宫扩建后的一个新入口，又是卢浮宫新增的一件艺术魁宝。\n它的设计者——贝聿铭生于中国广州，1935年加入美国籍，毕业于麻省理工学院和哈佛大学。贝聿铭的作品没有华丽奇特的外表，他以构思严密、设计精心、手法完全著称于世。</string>
+    <string-array name="sports_titles">
+        <item>Baseball</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Bowling</item>
+        <item>Cycling</item>
+        <item>Golf</item>
+        <item>Running</item>
+        <item>Football</item>
+        <item>Swimming</item>
+        <item>Table Tennis</item>
+        <item>Tennis</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>Here is some Baseball news!</item>
+        <item>Here is some Badminton news!</item>
+        <item>Here is some Basketball news!</item>
+        <item>Here is some Bowling news!</item>
+        <item>Here is some Cycling news!</item>
+        <item>Here is some Golf news!</item>
+        <item>Here is some Running news!</item>
+        <item>Here is some Football news!</item>
+        <item>Here is some Swimming news!</item>
+        <item>Here is some Table Tennis news!</item>
+        <item>Here is some Tennis news!</item>
+    </string-array>
+
+
+    <array name="sports_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
+
+    </array>
+
 </resources>

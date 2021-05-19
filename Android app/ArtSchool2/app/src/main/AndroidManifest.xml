@@ -1,40 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.artschool">
+    package="com.example.行走的建筑学院">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
+        android:name="com.example.行走的建筑学院.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ArtSchool">
-        <activity android:name=".ThirdActivity"
-            android:label="hello!"
-            android:parentActivityName=".MainActivity">
+        <activity android:name="com.example.行走的建筑学院.ForthActivity"
+            android:label="建筑GALLERY详情----向下滑-----"
+           >
+        </activity>
+        <activity
+            android:name="com.example.行走的建筑学院.ThirdActivity"
+            android:label="建筑解析"
+            android:parentActivityName="com.example.行走的建筑学院.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
-
-        </activity>
-        <!-- <activity -->
+                android:value="com.example.行走的建筑学院.MainActivity" />
+        </activity> <!-- <activity -->
         <!-- android:name=".ThirdActivity" -->
         <!-- android:label="@string/title_activity_third" -->
         <!-- android:theme="@style/Theme.ArtSchool.NoActionBar"></activity> -->
         <activity
-            android:name=".SecondActivity"
-            android:label="ART GALLERY"
-            android:parentActivityName=".MainActivity">
+            android:name="com.example.行走的建筑学院.SecondActivity"
+            android:label="建筑GALLERY"
+            android:parentActivityName="com.example.行走的建筑学院.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.行走的建筑学院.MainActivity" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.行走的建筑学院.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.ArtSchool.NoActionBar">
             <intent-filter>

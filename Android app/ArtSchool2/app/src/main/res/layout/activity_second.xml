@@ -5,14 +5,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fadeScrollbars="false"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
     <ImageView
         android:scaleType="centerCrop"
         android:layout_marginTop="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="400dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/image">
+        android:layout_height="300dp"
+        android:id="@+id/image"
+        >
     </ImageView>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        android:id="@+id/text"
+        android:text="null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/cantata_one"
+        android:letterSpacing="0.4"
+        android:lineSpacingExtra="12sp"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

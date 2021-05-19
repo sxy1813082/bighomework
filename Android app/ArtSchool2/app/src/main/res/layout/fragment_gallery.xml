@@ -6,11 +6,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.gallery.GalleryFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fadeScrollbars="false"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/artschool"
+        android:layout_width="411dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/cantata_one"
+        android:letterSpacing="0.4"
+        android:lineSpacingExtra="12sp"
+        android:text="ARCHITECTURE\nSCHOOL\nGALLERY"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/clickbelow"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:fontFamily="@font/cantata_one"
+        android:textStyle="normal"
+        android:textSize="13sp"
+        android:textColor="#c59292"
+        android:letterSpacing="0.5"
+        android:gravity="center_horizontal"
+        android:text="CLICK BELOW"
+        app:layout_constraintTop_toBottomOf="@+id/artschool"
+        />
     <LinearLayout
         android:id="@+id/liner1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        app:layout_constraintTop_toTopOf = "parent"
+        app:layout_constraintTop_toBottomOf = "@+id/clickbelow"
+
         android:orientation="horizontal"
         android:layout_marginTop="10dp">
         <ImageView
@@ -20,8 +63,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:id="@+id/gallery_image"
-            android:onClick="show_gallery_image1"
-            tools:ignore="OnClick">
+
+           >
         </ImageView>
         <ImageView
             android:scaleType="centerCrop"
@@ -29,7 +72,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:id="@+id/gallery_image2"
-            android:onClick="show_gallery_image2"
+
             >
         </ImageView>
 
@@ -45,7 +88,7 @@
             android:layout_marginRight="8dp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="beijing gallery\nbeijing\n国家博物馆"
+            android:text="beijing 建筑\nbeijing\nCCTV电视塔"
             android:gravity="center_vertical"
             android:layout_weight="1"
             android:id="@+id/gallery_text1"
@@ -56,7 +99,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:layout_weight="1"
-            android:text="tianjin gallery\nTianJing\n海洋博物馆"
+            android:text="beijing 最高楼\nBeijing\n中国尊"
             android:id="@+id/gallery_text2"
             >
         </TextView>
@@ -76,7 +119,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:id="@+id/gallery_image3"
-            android:onClick="show_gallery_image3"
+
             >
         </ImageView>
         <ImageView
@@ -85,7 +128,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:id="@+id/gallery_image4"
-            android:onClick="show_gallery_image4"
+
             >
         </ImageView>
     </LinearLayout>
@@ -100,7 +143,7 @@
             android:layout_marginRight="8dp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="shanghai gallery\nbeijing\n外滩博物馆"
+            android:text="Dubai 酒店\nDubai\n著名帆船酒店建筑"
             android:gravity="center_vertical"
             android:layout_weight="1"
             android:id="@+id/gallery_text3"
@@ -111,11 +154,13 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:layout_weight="1"
-            android:text="沙雕 gallery\nTianJing\n三里屯博物馆"
+            android:text="GuangZhou 建筑\nGuangZhou\n广州塔"
             android:id="@+id/gallery_text4"
             >
         </TextView>
 
     </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

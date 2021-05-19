@@ -5,8 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ThirdActivity">
+
     <FrameLayout
         android:layout_width="0dp"
+        android:id="@+id/lunbo"
         android:layout_height="200dp" app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent">
@@ -48,5 +50,114 @@
 
         </LinearLayout>
     </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:fillViewport="true"
+        android:fadeScrollbars="false"
+        android:orientation="vertical"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/lunbo"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
 
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cantata_one"
+            android:letterSpacing="0.4"
+            android:lineSpacingExtra="12sp"
+            android:textColor="@color/grey"
+            android:textSize="18sp"
+            android:text="大兴机场建筑：">
+        </TextView>
+        <TextView
+            android:background="@drawable/setbar_bg"
+            android:layout_margin="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cantata_one"
+            android:textStyle="normal"
+            android:textSize="13sp"
+            android:textColor="#c59292"
+            android:letterSpacing="0.5"
+            android:text="@string/da_xing">
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cantata_one"
+            android:letterSpacing="0.4"
+            android:lineSpacingExtra="12sp"
+            android:textColor="@color/grey"
+            android:textSize="18sp"
+            android:text="迪拜火焰楼：">
+        </TextView>
+        <TextView
+            android:background="@drawable/setbar_bg"
+            android:layout_margin="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cantata_one"
+            android:textStyle="normal"
+            android:textSize="13sp"
+            android:textColor="#c59292"
+            android:letterSpacing="0.5"
+            android:text="@string/dibai">
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cantata_one"
+            android:letterSpacing="0.4"
+            android:lineSpacingExtra="12sp"
+            android:textColor="@color/grey"
+            android:textSize="18sp"
+            android:text="新加坡滨海湾：">
+        </TextView>
+        <TextView
+            android:background="@drawable/setbar_bg"
+            android:layout_margin="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cantata_one"
+            android:textStyle="normal"
+            android:textSize="13sp"
+            android:textColor="#c59292"
+            android:letterSpacing="0.5"
+            android:text="@string/xinjiapo">
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cantata_one"
+            android:letterSpacing="0.4"
+            android:lineSpacingExtra="12sp"
+            android:textColor="@color/grey"
+            android:textSize="18sp"
+            android:text="罗浮宫：">
+        </TextView>
+        <TextView
+            android:background="@drawable/setbar_bg"
+            android:layout_margin="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cantata_one"
+            android:textStyle="normal"
+            android:textSize="13sp"
+            android:textColor="#c59292"
+            android:letterSpacing="0.5"
+            android:text="@string/luofugong">
+        </TextView>
+
+
+    </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

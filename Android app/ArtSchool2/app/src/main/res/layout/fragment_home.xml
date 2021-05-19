@@ -27,7 +27,7 @@
                 android:fontFamily="@font/cantata_one"
                 android:letterSpacing="0.4"
                 android:lineSpacingExtra="12sp"
-                android:text="ART\nSCHOOL"
+                android:text="ARCHITECTURE\nSCHOOL"
                 android:textAlignment="center"
                 android:textColor="@color/grey"
                 android:textSize="18sp"
@@ -106,6 +106,36 @@
                     </LinearLayout>
                 </LinearLayout>
             </ScrollView>
+            <TextView
+                android:id="@+id/artschool1"
+                android:layout_width="411dp"
+                android:layout_height="68dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/cantata_one"
+                android:letterSpacing="0.4"
+                android:lineSpacingExtra="12sp"
+                android:text="ENLARGE\nSEE"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/clickbelow1"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:fontFamily="@font/cantata_one"
+                android:textStyle="normal"
+                android:textSize="13sp"
+                android:textColor="#c59292"
+                android:letterSpacing="0.5"
+                android:gravity="center_horizontal"
+                android:text="CLICK BELOW"
+                app:layout_constraintTop_toBottomOf="@+id/artschool1"
+                />
             <HorizontalScrollView
                 android:layout_marginTop="19dp"
                 android:layout_width="match_parent"
@@ -116,10 +146,82 @@
                 <LinearLayout
                     android:id="@+id/linear"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="110dp"
                     android:orientation="horizontal">
                 </LinearLayout>
             </HorizontalScrollView>
+            <TextView
+                android:id="@+id/discuss"
+                android:layout_width="411dp"
+                android:layout_height="68dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/cantata_one"
+                android:letterSpacing="0.4"
+                android:lineSpacingExtra="12sp"
+                android:text="DISCUSS\nWE"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:fontFamily="@font/cantata_one"
+                android:textStyle="normal"
+                android:textSize="13sp"
+                android:textColor="#c59292"
+                android:letterSpacing="0.5"
+                android:gravity="center_horizontal"
+                android:text="COME ON"
+                app:layout_constraintTop_toBottomOf="@+id/discuss"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/id"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="昵称"
+                    android:inputType="text"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true"
+                    android:textColorHint="#95A1AA"
+                     />
+                <EditText
+                    android:id="@+id/talk"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="输入评价"
+                    android:selectAllOnFocus="true"
+                    android:textColorHint="#95A1AA" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/commmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="发布评论">
+
+            </Button>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/comment_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
