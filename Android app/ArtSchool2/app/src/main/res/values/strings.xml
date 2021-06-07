@@ -20,7 +20,7 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
-<string name="ku">库哈斯的作品其实已经超出了或者说远远扩大了传统建筑学的语境，这一点真的有点像柯布。也许并不是每个人都能喜欢库哈斯，\n但是我们也没办法否认他的伟大库哈斯通过他比较奇特的方式切入设计（当初这指的是他开宗立派的时期，现在这种方式早已成了遍布全球的徒子徒孙做设计的方式），通过各种diagram的分析，为建筑立意、破题。\n库哈斯一次又一次用“批判”建筑的方式在做建筑
+    <string name="ku">库哈斯的作品其实已经超出了或者说远远扩大了传统建筑学的语境，这一点真的有点像柯布。也许并不是每个人都能喜欢库哈斯，\n但是我们也没办法否认他的伟大库哈斯通过他比较奇特的方式切入设计（当初这指的是他开宗立派的时期，现在这种方式早已成了遍布全球的徒子徒孙做设计的方式），通过各种diagram的分析，为建筑立意、破题。\n库哈斯一次又一次用“批判”建筑的方式在做建筑
 </string>
     <string name="dubai">它的整体位落与迪拜海边的人工岛上，是一栋帆船状的塔状建筑物。
         阿拉伯塔酒店糅合了最新的建筑及工程科技，迷人的景致及造型，使它看上去仿佛和天空融为一体。
@@ -38,48 +38,4 @@
     <string name="dibai">迪拜风中烛火大厦从54层到97层不等，汇集在一起构成一座舞蹈般的雕塑形象，看上去很像是烛火在闪动。建筑表达方面，其成熟的美学和结构工程方面的创新是任何现代建筑都无法比拟的。“迪拜大厦-迪拜”还设置了一系列附属的设施，包括零售店、娱乐场所和住宅，创造出富有活力动感的社区。</string>
     <string name="xinjiapo">滨海湾金沙酒店坐落于 Marina Bay 滨海湾，由三座连成一串的酒店大楼组成，顶部建有景色壮观的空中花园，酒店内则设有“漂浮式”水晶阁、莲花外形的博物馆、出售各种先进商品和国际奢侈品牌的零售商店、精致时尚的名厨餐厅、享之不尽的影院娱乐、激情涌动的夜总会以及一座拉斯维加斯风格的娱乐场。</string>
     <string name="luofugong">说道卢浮宫博物馆，不得不提的就是前面提到的玻璃金字塔。1989年，在一片争议声中，玻璃金字塔屹立在卢浮宫西面的拿破仑广场上，他就是卢浮宫扩建后的一个新入口，又是卢浮宫新增的一件艺术魁宝。\n它的设计者——贝聿铭生于中国广州，1935年加入美国籍，毕业于麻省理工学院和哈佛大学。贝聿铭的作品没有华丽奇特的外表，他以构思严密、设计精心、手法完全著称于世。</string>
-    <string-array name="sports_titles">
-        <item>Baseball</item>
-        <item>Badminton</item>
-        <item>Basketball</item>
-        <item>Bowling</item>
-        <item>Cycling</item>
-        <item>Golf</item>
-        <item>Running</item>
-        <item>Football</item>
-        <item>Swimming</item>
-        <item>Table Tennis</item>
-        <item>Tennis</item>
-    </string-array>
-
-    <string-array name="sports_info">
-        <item>Here is some Baseball news!</item>
-        <item>Here is some Badminton news!</item>
-        <item>Here is some Basketball news!</item>
-        <item>Here is some Bowling news!</item>
-        <item>Here is some Cycling news!</item>
-        <item>Here is some Golf news!</item>
-        <item>Here is some Running news!</item>
-        <item>Here is some Football news!</item>
-        <item>Here is some Swimming news!</item>
-        <item>Here is some Table Tennis news!</item>
-        <item>Here is some Tennis news!</item>
-    </string-array>
-
-
-    <array name="sports_images">
-        <item>@drawable/img_baseball</item>
-        <item>@drawable/img_badminton</item>
-        <item>@drawable/img_basketball</item>
-        <item>@drawable/img_bowling</item>
-        <item>@drawable/img_cycling</item>
-        <item>@drawable/img_golf</item>
-        <item>@drawable/img_running</item>
-        <item>@drawable/img_soccer</item>
-        <item>@drawable/img_swimming</item>
-        <item>@drawable/img_tabletennis</item>
-        <item>@drawable/img_tennis</item>
-
-    </array>
-
 </resources>

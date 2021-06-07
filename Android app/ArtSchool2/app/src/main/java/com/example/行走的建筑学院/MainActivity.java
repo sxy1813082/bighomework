@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
@@ -13,6 +14,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.multidex.MultiDex;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -33,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton image2;
     private ImageButton image3;
     private ImageView image4;
+    private Button seediscuss;
+
 
     // Member variables.
 
@@ -44,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
         image2 = findViewById(R.id.show_image2);
         image3 = findViewById(R.id.show_image3);
         image4 = findViewById(R.id.imageView);
+        seediscuss = findViewById(R.id.seediscuss);
+        MultiDex.install(this);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -78,32 +84,20 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("image", 3);
         startActivity(intent);
     }
-//    //下面是gallery页面的图片点击事件
-//    public void show_gallery_image1(View view){
-//        Intent intent = new Intent(this, ForthActivity.class);
-//        intent.putExtra("image", 1);
-//        startActivity(intent);
-//    }
-//    public void show_gallery_image2(View view){
-//        Intent intent = new Intent(this, ForthActivity.class);
-//        intent.putExtra("image", 2);
-//        startActivity(intent);
-//    }
-//    public void show_gallery_image3(View view){
-//        Intent intent = new Intent(this, ForthActivity.class);
-//        intent.putExtra("image", 3);
-//        startActivity(intent);
-//    }
-//    public void show_gallery_image4(View view){
-//        Intent intent = new Intent(this, ForthActivity.class);
-//        intent.putExtra("image", 4);
-//        startActivity(intent);
-//    }
+    public void showDiscuss(View view){
+        //Intent intent = new Intent(this,FiveActivity.class);
+        Intent intent = new Intent(this,mysqlActivity.class);
+
+        startActivity(intent);
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
+//        Intent intent = new Intent(this,FiveActivity.class);
+//        startActivity(intent);
         return true;
     }
 

@@ -16,10 +16,12 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.multidex.MultiDex;
 
 import com.bumptech.glide.Glide;
 import com.example.行走的建筑学院.R;
@@ -72,6 +74,7 @@ public class HomeFragment extends Fragment {
                 new ViewModelProvider(this).get(HomeViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home, container, false);
         image= (ImageView) root.findViewById(R.id.show_image);
+        MultiDex.install(this.getContext());
         image2 = root.findViewById(R.id.show_image2);
         image3 = root.findViewById(R.id.show_image3);
         text = (TextView)root.findViewById(R.id.artschool);
@@ -158,34 +161,38 @@ public class HomeFragment extends Fragment {
             public void onClick(View v) {
             String Id = id.getText().toString();
             String Text = talk.getText().toString();
-                Map<String,String> map = new HashMap<String,String>();
-                map.put("id","id:"+Id);
+            if(id.equals("")||Text.equals("")){
+                Toast.makeText(HomeFragment.this.getContext(),"添加失败！请不要空白提交！",Toast.LENGTH_SHORT).show();
+            }
+            else {
+                Map<String, String> map = new HashMap<String, String>();
+                map.put("id", "id:" + Id);
                 map.put("text", "Item number : " + Text);
                 dataList.add(map);
                 simpleAdapter.notifyDataSetChanged();
                 JSONObject json1 = new JSONObject();
                 JSONObject item1 = new JSONObject();
                 try {
-                    json1.put("id",Id);
-                    json1.put("line",Text);
+                    json1.put("id", Id);
+                    json1.put("line", Text);
 
-                    item1.put("data",json1);
+                    item1.put("data", json1);
                     Log.d("json1", String.valueOf(json1));
-                    Log.d("item",String.valueOf(item1));
+                    Log.d("item", String.valueOf(item1));
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
                 MediaType JSON = MediaType.parse("application/json; charset=utf-8");
                 RequestBody body = RequestBody.create(JSON, item1.toString());
                 OkGo.post(urlline).tag(this)
-                       .requestBody(body)
-                        .execute(new StringCallback(){
-                    @Override
-                    public void onSuccess(String s, Call call, Response response) {
-                        Log.d(TAG, "onSuccess: wotamiao");
-                    }
-                });
+                        .requestBody(body)
+                        .execute(new StringCallback() {
+                            @Override
+                            public void onSuccess(String s, Call call, Response response) {
 
+                            }
+                        });
+            }
             }
         });
         return root;
